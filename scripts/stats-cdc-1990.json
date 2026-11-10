@@ -1,0 +1,24 @@
+{
+ "slug": "cdc-1990",
+ "registros": 15,
+ "riscados_removidos": 2,
+ "faixas": "46-54",
+ "faltantes_numeros_base": [],
+ "revogados_no_texto": [],
+ "vetados": [
+  "54-E"
+ ],
+ "vazios_sem_marca": [],
+ "duplicados_descartados": [],
+ "so_em_texto_riscado_sem_versao_vigente": [],
+ "anotacoes_distintas": 15,
+ "encerrou_em_termo": true,
+ "sufixados": [
+  "54-A",
+  "54-B",
+  "54-C",
+  "54-D",
+  "54-F",
+  "54-G"
+ ]
+}

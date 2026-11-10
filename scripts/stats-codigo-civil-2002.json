@@ -1,0 +1,23 @@
+{
+ "slug": "codigo-civil-2002",
+ "registros": 148,
+ "riscados_removidos": 2,
+ "faixas": "113,166-184,389-480,565-578,818-839",
+ "faltantes_numeros_base": [
+  456
+ ],
+ "revogados_no_texto": [
+  "456"
+ ],
+ "vetados": [
+  "819-A"
+ ],
+ "vazios_sem_marca": [],
+ "duplicados_descartados": [],
+ "so_em_texto_riscado_sem_versao_vigente": [],
+ "anotacoes_distintas": 57,
+ "encerrou_em_termo": true,
+ "sufixados": [
+  "421-A"
+ ]
+}

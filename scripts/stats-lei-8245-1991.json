@@ -1,0 +1,23 @@
+{
+ "slug": "lei-8245-1991",
+ "registros": 89,
+ "riscados_removidos": 23,
+ "faixas": "todos",
+ "faltantes_numeros_base": [
+  87,
+  88
+ ],
+ "revogados_no_texto": [],
+ "vetados": [
+  "87",
+  "88"
+ ],
+ "vazios_sem_marca": [],
+ "duplicados_descartados": [],
+ "so_em_texto_riscado_sem_versao_vigente": [],
+ "anotacoes_distintas": 5,
+ "encerrou_em_termo": true,
+ "sufixados": [
+  "54-A"
+ ]
+}
