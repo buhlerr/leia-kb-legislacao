@@ -1,0 +1,725 @@
+{
+ "unidades_indexadas": 1043,
+ "geral": {
+  "n": 69,
+  "top1": 0.623,
+  "top3": 0.768,
+  "top5": 0.87,
+  "top10": 0.942,
+  "mrr": 0.721
+ },
+ "por_tipo": {
+  "direta": {
+   "n": 18,
+   "top1": 0.778,
+   "top3": 0.944,
+   "top5": 0.944,
+   "top10": 0.944,
+   "mrr": 0.852
+  },
+  "inciso": {
+   "n": 16,
+   "top1": 0.75,
+   "top3": 0.875,
+   "top5": 0.938,
+   "top10": 1.0,
+   "mrr": 0.825
+  },
+  "parafrase": {
+   "n": 35,
+   "top1": 0.486,
+   "top3": 0.629,
+   "top5": 0.8,
+   "top10": 0.914,
+   "mrr": 0.607
+  }
+ },
+ "por_categoria": {
+  "benfeitorias": {
+   "n": 5,
+   "top1": 0.2,
+   "top3": 0.6,
+   "top5": 0.8,
+   "top10": 1.0,
+   "mrr": 0.46
+  },
+  "clausulas": {
+   "n": 12,
+   "top1": 0.75,
+   "top3": 0.75,
+   "top5": 0.917,
+   "top10": 0.917,
+   "mrr": 0.792
+  },
+  "despesas": {
+   "n": 4,
+   "top1": 0.75,
+   "top3": 0.75,
+   "top5": 0.75,
+   "top10": 1.0,
+   "mrr": 0.786
+  },
+  "encargos": {
+   "n": 5,
+   "top1": 0.6,
+   "top3": 0.8,
+   "top5": 0.8,
+   "top10": 1.0,
+   "mrr": 0.7
+  },
+  "estado_imovel": {
+   "n": 7,
+   "top1": 0.857,
+   "top3": 1.0,
+   "top5": 1.0,
+   "top10": 1.0,
+   "mrr": 0.929
+  },
+  "fianca": {
+   "n": 7,
+   "top1": 0.429,
+   "top3": 0.571,
+   "top5": 0.714,
+   "top10": 0.714,
+   "mrr": 0.536
+  },
+  "garantias": {
+   "n": 5,
+   "top1": 0.6,
+   "top3": 0.8,
+   "top5": 0.8,
+   "top10": 1.0,
+   "mrr": 0.687
+  },
+  "mora": {
+   "n": 4,
+   "top1": 0.5,
+   "top3": 0.75,
+   "top5": 1.0,
+   "top10": 1.0,
+   "mrr": 0.675
+  },
+  "multa": {
+   "n": 4,
+   "top1": 0.75,
+   "top3": 1.0,
+   "top5": 1.0,
+   "top10": 1.0,
+   "mrr": 0.875
+  },
+  "reajuste": {
+   "n": 7,
+   "top1": 0.571,
+   "top3": 0.571,
+   "top5": 0.714,
+   "top10": 0.857,
+   "mrr": 0.624
+  },
+  "rescisao": {
+   "n": 9,
+   "top1": 0.667,
+   "top3": 0.889,
+   "top5": 1.0,
+   "top10": 1.0,
+   "mrr": 0.787
+  }
+ },
+ "distancia_top1_com_gabarito_mediana": 0.362,
+ "distancia_top1_com_gabarito_max": 0.48,
+ "distancia_top1_negativas": {
+  "q38": 0.48,
+  "q39": 0.573
+ },
+ "fora_do_top3": [
+  {
+   "id": "q05",
+   "categoria": "garantias",
+   "tipo": "parafrase",
+   "rank": 10,
+   "esperado": [
+    "lei-8245-1991-art-40"
+   ],
+   "top1": "codigo-civil-2002-art-826"
+  },
+  {
+   "id": "q06",
+   "categoria": "fianca",
+   "tipo": "parafrase",
+   "rank": 0,
+   "esperado": [
+    "lei-8245-1991-art-39"
+   ],
+   "top1": "lei-8245-1991-art-40"
+  },
+  {
+   "id": "q09",
+   "categoria": "fianca",
+   "tipo": "parafrase",
+   "rank": 4,
+   "esperado": [
+    "sumulas-stj-sumula-549",
+    "lei-8009-1990-art-3"
+   ],
+   "top1": "jurisprudencia-stf-repercussao_geral-1127"
+  },
+  {
+   "id": "q10",
+   "categoria": "fianca",
+   "tipo": "direta",
+   "rank": 0,
+   "esperado": [
+    "codigo-civil-2002-art-819"
+   ],
+   "top1": "codigo-civil-2002-art-830"
+  },
+  {
+   "id": "q22",
+   "categoria": "despesas",
+   "tipo": "parafrase",
+   "rank": 7,
+   "esperado": [
+    "lei-8245-1991-art-43"
+   ],
+   "top1": "lei-8245-1991-art-25"
+  },
+  {
+   "id": "q25",
+   "categoria": "benfeitorias",
+   "tipo": "parafrase",
+   "rank": 5,
+   "esperado": [
+    "lei-8245-1991-art-35"
+   ],
+   "top1": "lei-8245-1991-art-26"
+  },
+  {
+   "id": "q32",
+   "categoria": "clausulas",
+   "tipo": "parafrase",
+   "rank": 4,
+   "esperado": [
+    "lei-8245-1991-art-45"
+   ],
+   "top1": "lei-8009-1990-art-4"
+  },
+  {
+   "id": "q40",
+   "categoria": "reajuste",
+   "tipo": "parafrase",
+   "rank": 5,
+   "esperado": [
+    "lei-8245-1991-art-18"
+   ],
+   "top1": "lei-8245-1991-art-19"
+  },
+  {
+   "id": "q42",
+   "categoria": "reajuste",
+   "tipo": "parafrase",
+   "rank": 6,
+   "esperado": [
+    "lei-8245-1991-art-17"
+   ],
+   "top1": "lei-8245-1991-art-69"
+  },
+  {
+   "id": "q45",
+   "categoria": "encargos",
+   "tipo": "inciso",
+   "rank": 6,
+   "esperado": [
+    "lei-8245-1991-art-22"
+   ],
+   "top1": "lei-8245-1991-art-25"
+  },
+  {
+   "id": "q50",
+   "categoria": "mora",
+   "tipo": "inciso",
+   "rank": 5,
+   "esperado": [
+    "lei-8245-1991-art-23"
+   ],
+   "top1": "lei-8245-1991-art-42"
+  },
+  {
+   "id": "q53",
+   "categoria": "benfeitorias",
+   "tipo": "parafrase",
+   "rank": 10,
+   "esperado": [
+    "lei-8245-1991-art-35",
+    "codigo-civil-2002-art-578"
+   ],
+   "top1": "lei-8245-1991-art-26"
+  },
+  {
+   "id": "q61",
+   "categoria": "rescisao",
+   "tipo": "parafrase",
+   "rank": 4,
+   "esperado": [
+    "lei-8245-1991-art-6"
+   ],
+   "top1": "lei-8245-1991-art-57"
+  },
+  {
+   "id": "q65",
+   "categoria": "clausulas",
+   "tipo": "parafrase",
+   "rank": 0,
+   "esperado": [
+    "lei-8245-1991-art-58"
+   ],
+   "top1": "lei-9307-1996-art-1"
+  },
+  {
+   "id": "q70",
+   "categoria": "reajuste",
+   "tipo": "parafrase",
+   "rank": 0,
+   "esperado": [
+    "lei-10192-2001-art-2"
+   ],
+   "top1": "lei-8245-1991-art-19"
+  },
+  {
+   "id": "q71",
+   "categoria": "clausulas",
+   "tipo": "parafrase",
+   "rank": 4,
+   "esperado": [
+    "codigo-civil-2002-art-157"
+   ],
+   "top1": "codigo-civil-2002-art-461"
+  }
+ ],
+ "por_pergunta": [
+  [
+   "q01",
+   1,
+   0.315,
+   "lei-8245-1991-art-37"
+  ],
+  [
+   "q02",
+   1,
+   0.362,
+   "lei-8245-1991-art-37"
+  ],
+  [
+   "q03",
+   1,
+   0.26,
+   "lei-8245-1991-art-38"
+  ],
+  [
+   "q04",
+   3,
+   0.291,
+   "lei-8245-1991-art-25"
+  ],
+  [
+   "q05",
+   10,
+   0.335,
+   "codigo-civil-2002-art-826"
+  ],
+  [
+   "q06",
+   0,
+   0.335,
+   "lei-8245-1991-art-40"
+  ],
+  [
+   "q07",
+   2,
+   0.402,
+   "lei-8245-1991-art-40"
+  ],
+  [
+   "q08",
+   1,
+   0.242,
+   "sumulas-stj-sumula-268"
+  ],
+  [
+   "q09",
+   4,
+   0.333,
+   "jurisprudencia-stf-repercussao_geral-1127"
+  ],
+  [
+   "q10",
+   0,
+   0.353,
+   "codigo-civil-2002-art-830"
+  ],
+  [
+   "q11",
+   1,
+   0.32,
+   "codigo-civil-2002-art-827"
+  ],
+  [
+   "q12",
+   1,
+   0.322,
+   "codigo-civil-2002-art-835"
+  ],
+  [
+   "q13",
+   2,
+   0.367,
+   "lei-8245-1991-art-43"
+  ],
+  [
+   "q14",
+   1,
+   0.41,
+   "lei-8245-1991-art-4"
+  ],
+  [
+   "q15",
+   1,
+   0.388,
+   "codigo-civil-2002-art-413"
+  ],
+  [
+   "q16",
+   1,
+   0.416,
+   "codigo-civil-2002-art-412"
+  ],
+  [
+   "q17",
+   1,
+   0.365,
+   "lei-8245-1991-art-17"
+  ],
+  [
+   "q18",
+   1,
+   0.277,
+   "lei-8245-1991-art-19"
+  ],
+  [
+   "q19",
+   1,
+   0.404,
+   "lei-8245-1991-art-22"
+  ],
+  [
+   "q20",
+   1,
+   0.319,
+   "lei-8245-1991-art-23"
+  ],
+  [
+   "q21",
+   1,
+   0.364,
+   "lei-8245-1991-art-22"
+  ],
+  [
+   "q22",
+   7,
+   0.32,
+   "lei-8245-1991-art-25"
+  ],
+  [
+   "q23",
+   1,
+   0.371,
+   "lei-8245-1991-art-22"
+  ],
+  [
+   "q24",
+   2,
+   0.312,
+   "lei-8245-1991-art-4"
+  ],
+  [
+   "q25",
+   5,
+   0.354,
+   "lei-8245-1991-art-26"
+  ],
+  [
+   "q26",
+   1,
+   0.391,
+   "sumulas-stj-sumula-335"
+  ],
+  [
+   "q27",
+   1,
+   0.347,
+   "lei-8245-1991-art-8"
+  ],
+  [
+   "q28",
+   1,
+   0.337,
+   "lei-8245-1991-art-27"
+  ],
+  [
+   "q29",
+   2,
+   0.327,
+   "lei-8245-1991-art-4"
+  ],
+  [
+   "q30",
+   1,
+   0.323,
+   "lei-8245-1991-art-59"
+  ],
+  [
+   "q31",
+   1,
+   0.337,
+   "lei-8245-1991-art-11"
+  ],
+  [
+   "q32",
+   4,
+   0.475,
+   "lei-8009-1990-art-4"
+  ],
+  [
+   "q33",
+   1,
+   0.395,
+   "lei-8245-1991-art-13"
+  ],
+  [
+   "q34",
+   1,
+   0.473,
+   "codigo-civil-2002-art-423"
+  ],
+  [
+   "q35",
+   1,
+   0.363,
+   "codigo-civil-2002-art-424"
+  ],
+  [
+   "q36",
+   1,
+   0.388,
+   "codigo-civil-2002-art-478"
+  ],
+  [
+   "q37",
+   1,
+   0.411,
+   "cdc-1990-art-51"
+  ],
+  [
+   "q38",
+   0,
+   0.48,
+   "cpc-2015-art-246"
+  ],
+  [
+   "q39",
+   0,
+   0.573,
+   "lei-8245-1991-art-71"
+  ],
+  [
+   "q40",
+   5,
+   0.333,
+   "lei-8245-1991-art-19"
+  ],
+  [
+   "q41",
+   1,
+   0.359,
+   "lei-8245-1991-art-18"
+  ],
+  [
+   "q42",
+   6,
+   0.34,
+   "lei-8245-1991-art-69"
+  ],
+  [
+   "q43",
+   1,
+   0.386,
+   "lei-8245-1991-art-21"
+  ],
+  [
+   "q44",
+   1,
+   0.423,
+   "lei-8245-1991-art-22"
+  ],
+  [
+   "q45",
+   6,
+   0.396,
+   "lei-8245-1991-art-25"
+  ],
+  [
+   "q46",
+   3,
+   0.48,
+   "lei-15040-2024-art-1"
+  ],
+  [
+   "q47",
+   1,
+   0.292,
+   "lei-8245-1991-art-25"
+  ],
+  [
+   "q48",
+   1,
+   0.388,
+   "lei-8245-1991-art-22"
+  ],
+  [
+   "q49",
+   1,
+   0.361,
+   "codigo-civil-2002-art-406"
+  ],
+  [
+   "q50",
+   5,
+   0.327,
+   "lei-8245-1991-art-42"
+  ],
+  [
+   "q51",
+   1,
+   0.289,
+   "lei-8245-1991-art-62"
+  ],
+  [
+   "q52",
+   2,
+   0.341,
+   "lei-8245-1991-art-62"
+  ],
+  [
+   "q53",
+   10,
+   0.411,
+   "lei-8245-1991-art-26"
+  ],
+  [
+   "q54",
+   2,
+   0.411,
+   "codigo-civil-2002-art-419"
+  ],
+  [
+   "q55",
+   2,
+   0.453,
+   "lei-8245-1991-art-35"
+  ],
+  [
+   "q56",
+   1,
+   0.357,
+   "lei-8245-1991-art-22"
+  ],
+  [
+   "q57",
+   1,
+   0.307,
+   "lei-8245-1991-art-26"
+  ],
+  [
+   "q58",
+   1,
+   0.405,
+   "lei-8245-1991-art-23"
+  ],
+  [
+   "q59",
+   1,
+   0.403,
+   "lei-8245-1991-art-23"
+  ],
+  [
+   "q60",
+   1,
+   0.348,
+   "lei-8245-1991-art-23"
+  ],
+  [
+   "q61",
+   4,
+   0.33,
+   "lei-8245-1991-art-57"
+  ],
+  [
+   "q62",
+   1,
+   0.423,
+   "lei-8245-1991-art-46"
+  ],
+  [
+   "q63",
+   1,
+   0.375,
+   "codigo-civil-2002-art-572"
+  ],
+  [
+   "q64",
+   3,
+   0.404,
+   "codigo-civil-2002-art-467"
+  ],
+  [
+   "q65",
+   0,
+   0.476,
+   "lei-9307-1996-art-1"
+  ],
+  [
+   "q66",
+   1,
+   0.392,
+   "lei-8245-1991-art-3"
+  ],
+  [
+   "q67",
+   1,
+   0.346,
+   "lei-8245-1991-art-12"
+  ],
+  [
+   "q68",
+   1,
+   0.397,
+   "codigo-civil-2002-art-421"
+  ],
+  [
+   "q69",
+   1,
+   0.439,
+   "codigo-civil-2002-art-422"
+  ],
+  [
+   "q70",
+   0,
+   0.34,
+   "lei-8245-1991-art-19"
+  ],
+  [
+   "q71",
+   4,
+   0.401,
+   "codigo-civil-2002-art-461"
+  ]
+ ]
+}

@@ -67,5 +67,5 @@
 {"id": "q67", "categoria": "clausulas", "pergunta": "O que acontece com a locação quando o casal se separa?", "esperado": ["lei-8245-1991-art-12"], "evidencia": "separação", "tipo": "direta"}
 {"id": "q68", "categoria": "clausulas", "pergunta": "Qual princípio limita a liberdade de contratar?", "esperado": ["codigo-civil-2002-art-421"], "evidencia": "função social", "tipo": "parafrase"}
 {"id": "q69", "categoria": "clausulas", "pergunta": "As partes devem agir com lealdade ao cumprir o contrato?", "esperado": ["codigo-civil-2002-art-422"], "evidencia": "boa-fé", "tipo": "parafrase"}
-{"id": "q70", "categoria": "reajuste", "pergunta": "O aluguel pode ser reajustado em periodicidade inferior a um ano?", "esperado": [], "evidencia": "", "tipo": "lacuna", "norma_ausente": "Lei 10.192/2001, art. 2"}
-{"id": "q71", "categoria": "clausulas", "pergunta": "Contrato com obrigação desproporcional por inexperiência pode ser anulado?", "esperado": [], "evidencia": "", "tipo": "lacuna", "norma_ausente": "Código Civil, art. 157 (lesão)"}
+{"id": "q70", "categoria": "reajuste", "pergunta": "O aluguel pode ser reajustado em periodicidade inferior a um ano?", "esperado": ["lei-10192-2001-art-2"], "evidencia": "periodicidade inferior a um ano", "tipo": "parafrase"}
+{"id": "q71", "categoria": "clausulas", "pergunta": "Contrato com obrigação desproporcional por inexperiência pode ser anulado?", "esperado": ["codigo-civil-2002-art-157"], "evidencia": "desproporcional", "tipo": "parafrase"}

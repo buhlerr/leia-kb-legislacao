@@ -1,0 +1,784 @@
+{
+ "geral": {
+  "n": 69,
+  "top1": 0.507,
+  "top3": 0.71,
+  "top5": 0.768,
+  "top10": 0.884,
+  "mrr": 0.62
+ },
+ "por_tipo": {
+  "direta": {
+   "n": 18,
+   "top1": 0.778,
+   "top3": 0.889,
+   "top5": 0.889,
+   "top10": 0.944,
+   "mrr": 0.822
+  },
+  "inciso": {
+   "n": 16,
+   "top1": 0.312,
+   "top3": 0.562,
+   "top5": 0.688,
+   "top10": 0.812,
+   "mrr": 0.47
+  },
+  "parafrase": {
+   "n": 35,
+   "top1": 0.457,
+   "top3": 0.686,
+   "top5": 0.743,
+   "top10": 0.886,
+   "mrr": 0.585
+  }
+ },
+ "por_categoria": {
+  "benfeitorias": {
+   "n": 5,
+   "top1": 0.2,
+   "top3": 0.8,
+   "top5": 0.8,
+   "top10": 0.8,
+   "mrr": 0.467
+  },
+  "clausulas": {
+   "n": 12,
+   "top1": 0.667,
+   "top3": 0.75,
+   "top5": 0.75,
+   "top10": 0.917,
+   "mrr": 0.734
+  },
+  "despesas": {
+   "n": 4,
+   "top1": 0.25,
+   "top3": 0.5,
+   "top5": 0.75,
+   "top10": 1.0,
+   "mrr": 0.456
+  },
+  "encargos": {
+   "n": 5,
+   "top1": 0.4,
+   "top3": 0.6,
+   "top5": 0.8,
+   "top10": 0.8,
+   "mrr": 0.507
+  },
+  "estado_imovel": {
+   "n": 7,
+   "top1": 0.286,
+   "top3": 0.571,
+   "top5": 0.571,
+   "top10": 0.714,
+   "mrr": 0.446
+  },
+  "fianca": {
+   "n": 7,
+   "top1": 0.429,
+   "top3": 0.571,
+   "top5": 0.714,
+   "top10": 0.714,
+   "mrr": 0.536
+  },
+  "garantias": {
+   "n": 5,
+   "top1": 0.6,
+   "top3": 1.0,
+   "top5": 1.0,
+   "top10": 1.0,
+   "mrr": 0.733
+  },
+  "mora": {
+   "n": 4,
+   "top1": 0.25,
+   "top3": 0.5,
+   "top5": 0.5,
+   "top10": 1.0,
+   "mrr": 0.406
+  },
+  "multa": {
+   "n": 4,
+   "top1": 1.0,
+   "top3": 1.0,
+   "top5": 1.0,
+   "top10": 1.0,
+   "mrr": 1.0
+  },
+  "reajuste": {
+   "n": 7,
+   "top1": 0.571,
+   "top3": 0.571,
+   "top5": 0.571,
+   "top10": 0.857,
+   "mrr": 0.61
+  },
+  "rescisao": {
+   "n": 9,
+   "top1": 0.667,
+   "top3": 0.889,
+   "top5": 1.0,
+   "top10": 1.0,
+   "mrr": 0.763
+  }
+ },
+ "distancia_top1_com_gabarito_mediana": 0.367,
+ "distancia_top1_com_gabarito_max": 0.48,
+ "distancia_top1_negativas": {
+  "q38": 0.464,
+  "q39": 0.557
+ },
+ "fora_do_top3": [
+  {
+   "id": "q06",
+   "categoria": "fianca",
+   "tipo": "parafrase",
+   "pergunta": "Até quando vai a responsabilidade do fiador se o contrato for prorrogado?",
+   "rank": 0,
+   "esperado": [
+    "lei-8245-1991-art-39"
+   ],
+   "top1": "codigo-civil-2002-art-836"
+  },
+  {
+   "id": "q09",
+   "categoria": "fianca",
+   "tipo": "parafrase",
+   "pergunta": "A casa onde o fiador mora pode ser penhorada?",
+   "rank": 4,
+   "esperado": [
+    "sumulas-stj-sumula-549",
+    "lei-8009-1990-art-3"
+   ],
+   "top1": "jurisprudencia-stf-repercussao_geral-1127"
+  },
+  {
+   "id": "q10",
+   "categoria": "fianca",
+   "tipo": "direta",
+   "pergunta": "A responsabilidade do fiador pode ser ampliada por interpretação do contrato?",
+   "rank": 0,
+   "esperado": [
+    "codigo-civil-2002-art-819"
+   ],
+   "top1": "codigo-civil-2002-art-830"
+  },
+  {
+   "id": "q19",
+   "categoria": "despesas",
+   "tipo": "inciso",
+   "pergunta": "Quem paga obras estruturais e reformas do condomínio?",
+   "rank": 5,
+   "esperado": [
+    "lei-8245-1991-art-22"
+   ],
+   "top1": "codigo-civil-2002-art-1336"
+  },
+  {
+   "id": "q22",
+   "categoria": "despesas",
+   "tipo": "parafrase",
+   "pergunta": "O locador pode cobrar valores além do aluguel e dos encargos permitidos?",
+   "rank": 8,
+   "esperado": [
+    "lei-8245-1991-art-43"
+   ],
+   "top1": "lei-8245-1991-art-25"
+  },
+  {
+   "id": "q24",
+   "categoria": "estado_imovel",
+   "tipo": "inciso",
+   "pergunta": "Em que condições o imóvel deve ser devolvido no fim da locação?",
+   "rank": 0,
+   "esperado": [
+    "lei-8245-1991-art-23"
+   ],
+   "top1": "lei-8245-1991-art-4"
+  },
+  {
+   "id": "q32",
+   "categoria": "clausulas",
+   "tipo": "parafrase",
+   "pergunta": "Cláusula que tenta burlar a Lei do Inquilinato tem validade?",
+   "rank": 6,
+   "esperado": [
+    "lei-8245-1991-art-45"
+   ],
+   "top1": "lei-8009-1990-art-4"
+  },
+  {
+   "id": "q40",
+   "categoria": "reajuste",
+   "tipo": "parafrase",
+   "pergunta": "O contrato pode trazer ou mudar a regra de correção do aluguel?",
+   "rank": 7,
+   "esperado": [
+    "lei-8245-1991-art-18"
+   ],
+   "top1": "lei-8245-1991-art-19"
+  },
+  {
+   "id": "q42",
+   "categoria": "reajuste",
+   "tipo": "parafrase",
+   "pergunta": "Em locação residencial, onde estão os critérios de correção do aluguel?",
+   "rank": 8,
+   "esperado": [
+    "lei-8245-1991-art-17"
+   ],
+   "top1": "lei-8245-1991-art-85"
+  },
+  {
+   "id": "q46",
+   "categoria": "encargos",
+   "tipo": "inciso",
+   "pergunta": "Quem paga o seguro contra incêndio?",
+   "rank": 0,
+   "esperado": [
+    "lei-8245-1991-art-22"
+   ],
+   "top1": "lei-15040-2024-art-1"
+  },
+  {
+   "id": "q48",
+   "categoria": "encargos",
+   "tipo": "inciso",
+   "pergunta": "O inquilino tem direito a recibo detalhado dos pagamentos?",
+   "rank": 5,
+   "esperado": [
+    "lei-8245-1991-art-22"
+   ],
+   "top1": "lei-8245-1991-art-23"
+  },
+  {
+   "id": "q50",
+   "categoria": "mora",
+   "tipo": "inciso",
+   "pergunta": "Até que dia o aluguel deve ser pago se o contrato não disser?",
+   "rank": 6,
+   "esperado": [
+    "lei-8245-1991-art-23"
+   ],
+   "top1": "lei-8245-1991-art-42"
+  },
+  {
+   "id": "q52",
+   "categoria": "mora",
+   "tipo": "direta",
+   "pergunta": "Falta de pagamento autoriza encerrar a locação?",
+   "rank": 8,
+   "esperado": [
+    "lei-8245-1991-art-9"
+   ],
+   "top1": "lei-8245-1991-art-62"
+  },
+  {
+   "id": "q53",
+   "categoria": "benfeitorias",
+   "tipo": "parafrase",
+   "pergunta": "O inquilino pode ficar no imóvel até ser indenizado pelas obras?",
+   "rank": 0,
+   "esperado": [
+    "lei-8245-1991-art-35",
+    "codigo-civil-2002-art-578"
+   ],
+   "top1": "lei-8245-1991-art-26"
+  },
+  {
+   "id": "q59",
+   "categoria": "estado_imovel",
+   "tipo": "inciso",
+   "pergunta": "O inquilino pode reformar o imóvel sem autorização do dono?",
+   "rank": 0,
+   "esperado": [
+    "lei-8245-1991-art-23"
+   ],
+   "top1": "lei-8245-1991-art-52"
+  },
+  {
+   "id": "q60",
+   "categoria": "estado_imovel",
+   "tipo": "inciso",
+   "pergunta": "O dono pode visitar o imóvel durante a locação?",
+   "rank": 8,
+   "esperado": [
+    "lei-8245-1991-art-23"
+   ],
+   "top1": "lei-8245-1991-art-8"
+  },
+  {
+   "id": "q61",
+   "categoria": "rescisao",
+   "tipo": "parafrase",
+   "pergunta": "Como o inquilino sai de um contrato por prazo indeterminado?",
+   "rank": 5,
+   "esperado": [
+    "lei-8245-1991-art-6"
+   ],
+   "top1": "lei-8245-1991-art-57"
+  },
+  {
+   "id": "q65",
+   "categoria": "clausulas",
+   "tipo": "parafrase",
+   "pergunta": "O contrato pode definir a cidade onde serão julgadas as disputas?",
+   "rank": 0,
+   "esperado": [
+    "lei-8245-1991-art-58"
+   ],
+   "top1": "lei-9307-1996-art-1"
+  },
+  {
+   "id": "q70",
+   "categoria": "reajuste",
+   "tipo": "parafrase",
+   "pergunta": "O aluguel pode ser reajustado em periodicidade inferior a um ano?",
+   "rank": 0,
+   "esperado": [
+    "lei-10192-2001-art-2"
+   ],
+   "top1": "lei-8245-1991-art-19"
+  },
+  {
+   "id": "q71",
+   "categoria": "clausulas",
+   "tipo": "parafrase",
+   "pergunta": "Contrato com obrigação desproporcional por inexperiência pode ser anulado?",
+   "rank": 7,
+   "esperado": [
+    "codigo-civil-2002-art-157"
+   ],
+   "top1": "cdc-1990-art-51"
+  }
+ ],
+ "por_pergunta": [
+  [
+   "q01",
+   1,
+   0.321,
+   "lei-8245-1991-art-37"
+  ],
+  [
+   "q02",
+   1,
+   0.319,
+   "lei-8245-1991-art-37"
+  ],
+  [
+   "q03",
+   1,
+   0.3,
+   "lei-8245-1991-art-38"
+  ],
+  [
+   "q04",
+   3,
+   0.297,
+   "lei-8245-1991-art-49"
+  ],
+  [
+   "q05",
+   3,
+   0.335,
+   "codigo-civil-2002-art-826"
+  ],
+  [
+   "q06",
+   0,
+   0.354,
+   "codigo-civil-2002-art-836"
+  ],
+  [
+   "q07",
+   2,
+   0.383,
+   "lei-8245-1991-art-40"
+  ],
+  [
+   "q08",
+   1,
+   0.242,
+   "sumulas-stj-sumula-268"
+  ],
+  [
+   "q09",
+   4,
+   0.333,
+   "jurisprudencia-stf-repercussao_geral-1127"
+  ],
+  [
+   "q10",
+   0,
+   0.353,
+   "codigo-civil-2002-art-830"
+  ],
+  [
+   "q11",
+   1,
+   0.319,
+   "codigo-civil-2002-art-827"
+  ],
+  [
+   "q12",
+   1,
+   0.322,
+   "codigo-civil-2002-art-835"
+  ],
+  [
+   "q13",
+   1,
+   0.349,
+   "lei-8245-1991-art-4"
+  ],
+  [
+   "q14",
+   1,
+   0.399,
+   "lei-8245-1991-art-4"
+  ],
+  [
+   "q15",
+   1,
+   0.388,
+   "codigo-civil-2002-art-413"
+  ],
+  [
+   "q16",
+   1,
+   0.416,
+   "codigo-civil-2002-art-412"
+  ],
+  [
+   "q17",
+   1,
+   0.366,
+   "lei-8245-1991-art-17"
+  ],
+  [
+   "q18",
+   1,
+   0.277,
+   "lei-8245-1991-art-19"
+  ],
+  [
+   "q19",
+   5,
+   0.436,
+   "codigo-civil-2002-art-1336"
+  ],
+  [
+   "q20",
+   2,
+   0.391,
+   "lei-8245-1991-art-25"
+  ],
+  [
+   "q21",
+   1,
+   0.438,
+   "lei-8245-1991-art-22"
+  ],
+  [
+   "q22",
+   8,
+   0.333,
+   "lei-8245-1991-art-25"
+  ],
+  [
+   "q23",
+   1,
+   0.387,
+   "lei-8245-1991-art-22"
+  ],
+  [
+   "q24",
+   0,
+   0.306,
+   "lei-8245-1991-art-4"
+  ],
+  [
+   "q25",
+   3,
+   0.35,
+   "lei-8245-1991-art-26"
+  ],
+  [
+   "q26",
+   1,
+   0.391,
+   "sumulas-stj-sumula-335"
+  ],
+  [
+   "q27",
+   1,
+   0.352,
+   "lei-8245-1991-art-8"
+  ],
+  [
+   "q28",
+   1,
+   0.339,
+   "lei-8245-1991-art-27"
+  ],
+  [
+   "q29",
+   1,
+   0.307,
+   "lei-8245-1991-art-47"
+  ],
+  [
+   "q30",
+   1,
+   0.309,
+   "lei-8245-1991-art-59"
+  ],
+  [
+   "q31",
+   3,
+   0.341,
+   "codigo-civil-2002-art-577"
+  ],
+  [
+   "q32",
+   6,
+   0.463,
+   "lei-8009-1990-art-4"
+  ],
+  [
+   "q33",
+   1,
+   0.412,
+   "lei-8245-1991-art-13"
+  ],
+  [
+   "q34",
+   2,
+   0.456,
+   "cdc-1990-art-51"
+  ],
+  [
+   "q35",
+   1,
+   0.363,
+   "codigo-civil-2002-art-424"
+  ],
+  [
+   "q36",
+   1,
+   0.388,
+   "codigo-civil-2002-art-478"
+  ],
+  [
+   "q37",
+   1,
+   0.344,
+   "cdc-1990-art-51"
+  ],
+  [
+   "q38",
+   0,
+   0.464,
+   "cpc-2015-art-246"
+  ],
+  [
+   "q39",
+   0,
+   0.557,
+   "codigo-civil-2002-art-206"
+  ],
+  [
+   "q40",
+   7,
+   0.333,
+   "lei-8245-1991-art-19"
+  ],
+  [
+   "q41",
+   1,
+   0.359,
+   "lei-8245-1991-art-18"
+  ],
+  [
+   "q42",
+   8,
+   0.337,
+   "lei-8245-1991-art-85"
+  ],
+  [
+   "q43",
+   1,
+   0.387,
+   "lei-8245-1991-art-21"
+  ],
+  [
+   "q44",
+   1,
+   0.413,
+   "lei-8245-1991-art-22"
+  ],
+  [
+   "q45",
+   3,
+   0.399,
+   "lei-8245-1991-art-25"
+  ],
+  [
+   "q46",
+   0,
+   0.48,
+   "lei-15040-2024-art-1"
+  ],
+  [
+   "q47",
+   1,
+   0.318,
+   "lei-8245-1991-art-25"
+  ],
+  [
+   "q48",
+   5,
+   0.397,
+   "lei-8245-1991-art-23"
+  ],
+  [
+   "q49",
+   3,
+   0.39,
+   "codigo-civil-2002-art-833"
+  ],
+  [
+   "q50",
+   6,
+   0.327,
+   "lei-8245-1991-art-42"
+  ],
+  [
+   "q51",
+   1,
+   0.326,
+   "lei-8245-1991-art-62"
+  ],
+  [
+   "q52",
+   8,
+   0.346,
+   "lei-8245-1991-art-62"
+  ],
+  [
+   "q53",
+   0,
+   0.405,
+   "lei-8245-1991-art-26"
+  ],
+  [
+   "q54",
+   2,
+   0.411,
+   "codigo-civil-2002-art-419"
+  ],
+  [
+   "q55",
+   2,
+   0.453,
+   "lei-8245-1991-art-35"
+  ],
+  [
+   "q56",
+   2,
+   0.376,
+   "codigo-civil-2002-art-568"
+  ],
+  [
+   "q57",
+   1,
+   0.304,
+   "lei-8245-1991-art-26"
+  ],
+  [
+   "q58",
+   2,
+   0.434,
+   "lei-8245-1991-art-22"
+  ],
+  [
+   "q59",
+   0,
+   0.401,
+   "lei-8245-1991-art-52"
+  ],
+  [
+   "q60",
+   8,
+   0.395,
+   "lei-8245-1991-art-8"
+  ],
+  [
+   "q61",
+   5,
+   0.33,
+   "lei-8245-1991-art-57"
+  ],
+  [
+   "q62",
+   1,
+   0.426,
+   "lei-8245-1991-art-46"
+  ],
+  [
+   "q63",
+   1,
+   0.375,
+   "codigo-civil-2002-art-572"
+  ],
+  [
+   "q64",
+   3,
+   0.404,
+   "codigo-civil-2002-art-467"
+  ],
+  [
+   "q65",
+   0,
+   0.47,
+   "lei-9307-1996-art-1"
+  ],
+  [
+   "q66",
+   1,
+   0.403,
+   "lei-8245-1991-art-3"
+  ],
+  [
+   "q67",
+   1,
+   0.367,
+   "lei-8245-1991-art-12"
+  ],
+  [
+   "q68",
+   1,
+   0.409,
+   "codigo-civil-2002-art-421"
+  ],
+  [
+   "q69",
+   1,
+   0.439,
+   "codigo-civil-2002-art-422"
+  ],
+  [
+   "q70",
+   0,
+   0.34,
+   "lei-8245-1991-art-19"
+  ],
+  [
+   "q71",
+   7,
+   0.391,
+   "cdc-1990-art-51"
+  ]
+ ]
+}
