@@ -14,7 +14,7 @@ Todas as normas desta tabela têm status `ausente_confirmada`: não estão em `s
 | Lei 8.078/1990 | https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm | 2, 3, 6, 22, 39, 43 | 8 (1 vermelho(s)): R060, R089, R090, R145, R160, R163, R164, R182 | A base tem só os arts. 46 a 54 (com marca de aplicabilidade restrita). Faltam arts. 2º, 3º, 6º, 39, 42, 43, úteis para taxas, negativação e práticas da administradora. |
 | Lei 10.192/2001 | https://www.planalto.gov.br/ccivil_03/leis/leis_2001/l10192.htm | 1, 2 | 4 (3 vermelho(s)): R027, R028, R029, R030 | Pedida explicitamente; art. 2º, §1º (periodicidade mínima de um ano) é a base do alerta de reajuste. Atenção: a periodicidade está no art. 2º, §1º, não no art. 3º. |
 | Súmulas do STJ | https://processo.stj.jus.br/SCON/sumstj/ (consulta por número) | 332, 359, 548, 656 | 4 (1 vermelho(s)): R038, R043, R044, R089 | Quatro súmulas relevantes não estão na base (332, 359, 548, 656). Fonte: processo.stj.jus.br, texto lido. |
-| Lei 15.040/2024 (Marco Legal dos Seguros) | https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L15040.htm | 1, 44, 45, 46, 94 | 3 (0 vermelho(s)): R058, R059, R060 | Os arts. 757 a 802 do Código Civil (seguro) estão revogados pela Lei 15.040/2024 (lido no texto compilado do CC); a base não os tem, e não deve incluí-los. Sustenta seguro-fiança, sub-rogação e declarações. |
+| Lei 15.040/2024 (Marco Legal dos Seguros) | https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L15040.htm | 1, 44, 45, 46, 94 | 3 (0 vermelho(s)): R058, R059, R060 | Os arts. 757 a 802 do Código Civil (seguro) estão revogados pela Lei 15.040/2024 (lido no texto compilado do CC); a base não os tem, e não deve incluí-los. Sustenta seguro-fiança, sub-rogação e declarações. Contratos anteriores à vigência podem seguir o regime antigo do Código Civil. |
 | Lei 9.307/1996 | https://www.planalto.gov.br/ccivil_03/leis/l9307.htm | 1, 4 | 1 (1 vermelho(s)): R139 | Cláusula compromissória em contrato de adesão (art. 4º, §2º) apareceu em minuta real (locacao-05). Também lidos: art. 8º (autonomia da cláusula). |
 
 ## Média
@@ -54,7 +54,7 @@ Todas as normas desta tabela têm status `ausente_confirmada`: não estão em `s
 | Normas SUSEP/CNSP sobre seguro-fiança locatícia (ato não identificado) | R062 | Citada de memória; não foi possível confirmar o texto oficial nesta sessão (não é lei do Planalto ou o ato não foi localizado). |
 | Resolução Normativa ANEEL 1.000/2021 | R182 | Citada de memória; não foi possível confirmar o texto oficial nesta sessão (não é lei do Planalto ou o ato não foi localizado). |
 | Tese do STF sobre fiador de locação e bem de família (número do tema) | R045 | Citada de memória; não foi possível confirmar o texto oficial nesta sessão (não é lei do Planalto ou o ato não foi localizado). |
-| Súmula 404 do STJ (notificação do devedor por AR antes da inscrição) | R089 | Citada de memória; não confirmada. |
+| Súmula 404 do STJ | R089 | Dispensa o aviso de recebimento (AR) na comunicação ao consumidor sobre a negativação; confirmada no site do STJ (processo.stj.jus.br). |
 | Súmula 596 do STF e jurisprudência sobre multa moratória de locação | R084 | Citada de memória; não confirmada. |
 | Lei 14.286/2021 (câmbio) | R030 | Aparece como fonte da redação do art. 1º da Lei 10.192 (lido); o texto da Lei 14.286 não foi lido. O Decreto-Lei 857/1969 está revogado por ela (marca lida na página do Planalto). |
 
