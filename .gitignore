@@ -1,0 +1,12 @@
+# Texto de contratos: mascarado, mas nomes e enderecos podem ter escapado da mascara
+avaliacao/agente-*.json
+avaliacao/gabarito-*.xlsx
+avaliacao/relatorio-*.html
+
+# Estado local do Langflow, gerado por maquina
+scripts/langflow/ids.json
+scripts/langflow/cf_account.txt
+scripts/langflow/all.json
+
+__pycache__/
+*.pyc
