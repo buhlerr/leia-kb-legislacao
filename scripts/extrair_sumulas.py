@@ -1,4 +1,4 @@
-"""Extrai o enunciado das Sumulas do STJ (214, 268, 335, 549) das paginas oficiais do processo.stj.jus.br.
+"""Extrai o enunciado das Sumulas do STJ (214, 268, 335, 549, 332, 359, 404, 548, 656) das paginas oficiais do processo.stj.jus.br.
 
 Cada pagina de consulta (sumstj/doc.jsp) traz o texto integral da sumula num <textarea>
 id="textSemformatacao<N>", seguido da citacao "(Sumula n. N, ...)". Grava so o enunciado.
@@ -12,7 +12,7 @@ import sys
 from bs4 import BeautifulSoup
 
 DATA_COLETA = "2026-11-09"
-NUMEROS = [214, 268, 335, 549]
+NUMEROS = [214, 268, 335, 549, 332, 359, 404, 548, 656]
 URL_BASE = "https://processo.stj.jus.br/SCON/sumstj/doc.jsp?&b=SUMU&p=false&l=10&i=1&ordenacao=-@NUM,-@DOCN&h=true&livre=%40NUM%3D%22{n}%22"
 
 

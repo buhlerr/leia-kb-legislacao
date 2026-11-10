@@ -1,0 +1,38 @@
+{
+ "slug": "lei-9514-1997",
+ "registros": 7,
+ "riscados_removidos": 146,
+ "faixas": "27,30,37",
+ "faltantes_numeros_base": [],
+ "revogados_no_texto": [],
+ "vetados": [],
+ "vazios_sem_marca": [],
+ "duplicados_descartados": [],
+ "so_em_texto_riscado_sem_versao_vigente": [
+  "10",
+  "11",
+  "12",
+  "13",
+  "14",
+  "15",
+  "16",
+  "22",
+  "26",
+  "26-A",
+  "36",
+  "38",
+  "39",
+  "41",
+  "7",
+  "8",
+  "9"
+ ],
+ "anotacoes_distintas": 9,
+ "encerrou_em_termo": true,
+ "sufixados": [
+  "27-A",
+  "37-A",
+  "37-B",
+  "37-C"
+ ]
+}

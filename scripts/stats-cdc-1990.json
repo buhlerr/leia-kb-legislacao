@@ -1,8 +1,8 @@
 {
  "slug": "cdc-1990",
- "registros": 15,
+ "registros": 23,
  "riscados_removidos": 2,
- "faixas": "46-54",
+ "faixas": "2,3,6,22,39,42,43,46-54",
  "faltantes_numeros_base": [],
  "revogados_no_texto": [],
  "vetados": [
@@ -14,6 +14,7 @@
  "anotacoes_distintas": 15,
  "encerrou_em_termo": true,
  "sufixados": [
+  "42-A",
   "54-A",
   "54-B",
   "54-C",

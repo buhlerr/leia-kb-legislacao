@@ -1,8 +1,8 @@
 {
  "slug": "codigo-civil-2002",
- "registros": 148,
+ "registros": 160,
  "riscados_removidos": 2,
- "faixas": "113,166-184,389-480,565-578,818-839",
+ "faixas": "113,156,157,166-184,187,206,389-480,565-578,653,661,684,818-839,940,1336,1337,1647",
  "faltantes_numeros_base": [
   456
  ],
@@ -18,6 +18,7 @@
  "anotacoes_distintas": 57,
  "encerrou_em_termo": true,
  "sufixados": [
+  "206-A",
   "421-A"
  ]
 }

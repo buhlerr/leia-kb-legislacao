@@ -1,0 +1,21 @@
+{
+ "slug": "lei-9307-1996",
+ "registros": 3,
+ "riscados_removidos": 20,
+ "faixas": "1,4,8",
+ "faltantes_numeros_base": [],
+ "revogados_no_texto": [],
+ "vetados": [],
+ "vazios_sem_marca": [],
+ "duplicados_descartados": [],
+ "so_em_texto_riscado_sem_versao_vigente": [
+  "25",
+  "30",
+  "33",
+  "35",
+  "39"
+ ],
+ "anotacoes_distintas": 2,
+ "encerrou_em_termo": true,
+ "sufixados": []
+}

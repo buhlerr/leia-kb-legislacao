@@ -1,0 +1,22 @@
+{
+ "slug": "cpc-2015",
+ "registros": 9,
+ "riscados_removidos": 79,
+ "faixas": "63,85,190,246,247,334,539,784,917",
+ "faltantes_numeros_base": [],
+ "revogados_no_texto": [],
+ "vetados": [],
+ "vazios_sem_marca": [],
+ "duplicados_descartados": [],
+ "so_em_texto_riscado_sem_versao_vigente": [
+  "1030",
+  "1042",
+  "1063",
+  "12",
+  "153",
+  "945"
+ ],
+ "anotacoes_distintas": 26,
+ "encerrou_em_termo": true,
+ "sufixados": []
+}

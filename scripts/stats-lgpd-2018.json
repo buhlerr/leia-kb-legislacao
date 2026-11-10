@@ -1,0 +1,37 @@
+{
+ "slug": "lgpd-2018",
+ "registros": 8,
+ "riscados_removidos": 172,
+ "faixas": "5,6,7,8,9,11,18,42",
+ "faltantes_numeros_base": [],
+ "revogados_no_texto": [],
+ "vetados": [],
+ "vazios_sem_marca": [],
+ "duplicados_descartados": [
+  "5"
+ ],
+ "so_em_texto_riscado_sem_versao_vigente": [
+  "20",
+  "27",
+  "29",
+  "55-A",
+  "55-B",
+  "55-C",
+  "55-D",
+  "55-E",
+  "55-F",
+  "55-G",
+  "55-H",
+  "55-I",
+  "55-J",
+  "55-K",
+  "55-M",
+  "58-A",
+  "58-B",
+  "62",
+  "65"
+ ],
+ "anotacoes_distintas": 5,
+ "encerrou_em_termo": true,
+ "sufixados": []
+}
